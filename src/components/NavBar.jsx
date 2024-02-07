@@ -1,13 +1,27 @@
 import React from "react";
 import "../css/navbar.css";
+import "../css/styleguide.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 import logo from "../images/logo.png";
 
 const NavBar = () => {
   return (
     <>
+      <div className="top-nav">
+        <p>
+          <a href="/">
+            عربي <FontAwesomeIcon icon={faCaretDown} />
+          </a>
+        </p>
+        <h5 className="login">
+          <a href="/">Login</a>
+        </h5>
+        <h5 className="signup">
+          <a href="/">Sign Up </a>
+        </h5>
+      </div>
       <header>
         {/* <img src={logo} alt="Events-logo" /> */}
         <h3>Company Name</h3>

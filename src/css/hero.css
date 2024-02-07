@@ -4,18 +4,31 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 15rem 0 6rem;
-  color: #fff;
-  /* opacity: 0.4; 
-  overlay: #e07b7b;*/
+  padding: 10rem 0 5rem;
+  /* color: #fff; */
 }
-
+.hero h2 {
+  margin: 2em 0;
+}
+form {
+  align-items: center;
+}
 .custom-select,
 .search {
   max-width: 70%;
   padding: 5px 15px;
   border-radius: 5px;
   outline: none;
-  border: none;
+  border: 1px solid #000;
   margin: 2px;
+}
+.icon {
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #000;
+  background: var(--secondary-grey);
+  padding: 7px;
 }

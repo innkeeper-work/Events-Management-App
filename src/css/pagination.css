@@ -1,0 +1,28 @@
+.pagination {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.pagination p,
+.icon {
+  margin: 0 10px;
+}
+.pagination a {
+  text-decoration: none;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+.pagination a.active {
+  background: #ededed;
+}
+.pagination .icon {
+  padding: 7px 5px;
+  background-color: var(--secondary-grey);
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}

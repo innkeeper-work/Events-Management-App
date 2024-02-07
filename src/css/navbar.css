@@ -1,6 +1,35 @@
+/* Top Nav */
+.top-nav {
+  margin: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.top-nav p,
+h5 {
+  margin: 0 10px;
+}
+.top-nav {
+  text-transform: uppercase;
+}
+.top-nav h5.login {
+  border: none;
+  background: none;
+  font-weight: normal;
+}
+.top-nav h5.signup {
+  font-weight: normal;
+  padding: 5px 20px;
+  border: none;
+  background: var(--secondary-grey);
+}
+.top-nav a {
+  color: #000;
+  text-decoration: none;
+}
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 20px 10px;
 }
@@ -11,10 +40,17 @@ nav a {
 }
 nav a.active {
   border-bottom: 2px solid #000;
+  font-weight: 600;
+}
+nav a:hover {
+  border-bottom: 2px solid #000;
+  /* font-weight: 500; */
+  transition-delay: 50ms;
 }
 header .icon {
   background-color: #949494;
   border-radius: 40px;
+  border: none;
   padding: 10px;
   cursor: pointer;
 }

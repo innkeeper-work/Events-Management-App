@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <div className="hero">
         <h2>Your Wedding, Your Way</h2>
-        <form action="" method="post">
+        <div className="form">
           <select name="category" className="custom-select">
             <option value="select" selected disabled>
               Select Category
@@ -33,9 +33,9 @@ const Hero = () => {
             name="search"
             id="search"
             placeholder="Search"
-          />{" "}
+          />
           <FontAwesomeIcon className="icon" icon={faSearch} />
-        </form>
+        </div>
       </div>
     </>
   );
